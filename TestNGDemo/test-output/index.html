@@ -1,0 +1,1026 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
+              <span class="suite-name border-skipped">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
+                    <span>C:\Users\Dell\AppData\Local\Temp\testng-eclipse--390033918\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">38 methods,  34 skipped,  4 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods skipped suite-Default_suite"> (hide)</a> <!-- hide-methods skipped suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods skipped suite-Default_suite"> (show)</a> <!-- show-methods skipped suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Default_suite">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestNGTestCaseAirtel.Airtel" hash-for-method="verifyBroadbandtextvisibility">verifyBroadbandtextvisibility</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestNGTestCaseAirtel.Airtel" hash-for-method="verifyBusinessVisibilityTest">verifyBusinessVisibilityTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestNGTestCaseAirtel.Airtel" hash-for-method="verifyBuy_Airtel_Payments_Bank_VisibilityTest">verifyBuy_Airtel_Payments_Bank_VisibilityTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestNGTestCaseAirtel.Airtel" hash-for-method="verifyBuy_Broadband_VisibilityTest">verifyBuy_Broadband_VisibilityTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestNGTestCaseAirtel.Airtel" hash-for-method="verifyBuy_DTH_VisibilityTest">verifyBuy_DTH_VisibilityTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestNGTestCaseAirtel.Airtel" hash-for-method="verifyBuy_One_Airtel_Plan_VisibilityTest">verifyBuy_One_Airtel_Plan_VisibilityTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestNGTestCaseAirtel.Airtel" hash-for-method="verifyBuy_Postpaid_VisibilityTest">verifyBuy_Postpaid_VisibilityTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestNGTestCaseAirtel.Airtel" hash-for-method="verifyBuy_Prepaid_VisibilityTest">verifyBuy_Prepaid_VisibilityTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestNGTestCaseAirtel.Airtel" hash-for-method="verifyBuy_Prepaid_to_Postpaid_VisibilityTest">verifyBuy_Prepaid_to_Postpaid_VisibilityTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestNGTestCaseAirtel.Airtel" hash-for-method="verifyBuy_Xstream_VisibilityTest">verifyBuy_Xstream_VisibilityTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestNGTestCaseAirtel.Airtel" hash-for-method="verifyCareerVisibilityTest">verifyCareerVisibilityTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestNGTestCaseAirtel.Airtel" hash-for-method="verifyDTHVisibilityTest">verifyDTHVisibilityTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestNGTestCaseAirtel.Airtel" hash-for-method="verifyDTHtextvisibility">verifyDTHtextvisibility</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestNGTestCaseAirtel.Airtel" hash-for-method="verifyGetAppVisibilityTest">verifyGetAppVisibilityTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestNGTestCaseAirtel.Airtel" hash-for-method="verifyHelpVisibilityTest">verifyHelpVisibilityTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestNGTestCaseAirtel.Airtel" hash-for-method="verifyHomePageVisibilityTest">verifyHomePageVisibilityTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestNGTestCaseAirtel.Airtel" hash-for-method="verifyInvestorVisibilityTest">verifyInvestorVisibilityTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestNGTestCaseAirtel.Airtel" hash-for-method="verifyLoginVisibilityTest">verifyLoginVisibilityTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestNGTestCaseAirtel.Airtel" hash-for-method="verifyLogoVisibilityTest">verifyLogoVisibilityTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestNGTestCaseAirtel.Airtel" hash-for-method="verifyPersonalVisibilityTest">verifyPersonalVisibilityTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestNGTestCaseAirtel.Airtel" hash-for-method="verifyPostpaidVisibilityTest">verifyPostpaidVisibilityTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestNGTestCaseAirtel.Airtel" hash-for-method="verifyPostpaidtextvisibility">verifyPostpaidtextvisibility</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestNGTestCaseAirtel.Airtel" hash-for-method="verifyPrepaidVisibilityTest">verifyPrepaidVisibilityTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestNGTestCaseAirtel.Airtel" hash-for-method="verifyPrepaidtextvisibility">verifyPrepaidtextvisibility</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestNGTestCaseAirtel.Airtel" hash-for-method="verifyTextBoxVisibilityText">verifyTextBoxVisibilityText</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestNGTestCaseAirtel.Airtel" hash-for-method="verifyTitleTest">verifyTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestNGTestCaseAirtel.Airtel" hash-for-method="verifyWynkVisibilityTest">verifyWynkVisibilityTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestNGTestCaseAirtel.Airtel" hash-for-method="verifyXstreamVisibilityTest">verifyXstreamVisibilityTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestNGTestCaseAirtel.Airtel" hash-for-method="verify_Business_Postpaid_VisibilityTest">verify_Business_Postpaid_VisibilityTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestNGTestCaseAirtel.Airtel" hash-for-method="verify_International_RoamingVisibilityTest">verify_International_RoamingVisibilityTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestNGTestCaseAirtel.Airtel" hash-for-method="verify_Port_to_Airtel_VisibilityTest">verify_Port_to_Airtel_VisibilityTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestNGTestCaseAirtel.Airtel" hash-for-method="verify_WiFi_Calling_VisibilityTest">verify_WiFi_Calling_VisibilityTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestNGTestCaseAirtel.Airtel" hash-for-method="verifytext1RechargeTabVisibilityTest">verifytext1RechargeTabVisibilityTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestNGTestCaseAirtel.Airtel" hash-for-method="verifytext2RechargeTabVisibilityTest">verifytext2RechargeTabVisibilityTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Default_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestNGTestCaseAirtel.Airtel" hash-for-method="verifyAirtelStoreVisibilityTest">verifyAirtelStoreVisibilityTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestNGTestCaseAirtel.Airtel" hash-for-method="verifyAirtel_Payments_Bank_VisibilityTest">verifyAirtel_Payments_Bank_VisibilityTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestNGTestCaseAirtel.Airtel" hash-for-method="verifyBankVisibilityTest">verifyBankVisibilityTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestNGTestCaseAirtel.Airtel" hash-for-method="verifyBroadbandVisibilityTest">verifyBroadbandVisibilityTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">TestNGTestCaseAirtel.Airtel</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyBroadbandtextvisibility">
+                  </a> <!-- verifyBroadbandtextvisibility -->
+                  <span class="method-name">verifyBroadbandtextvisibility</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyBusinessVisibilityTest">
+                  </a> <!-- verifyBusinessVisibilityTest -->
+                  <span class="method-name">verifyBusinessVisibilityTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyBuy_Airtel_Payments_Bank_VisibilityTest">
+                  </a> <!-- verifyBuy_Airtel_Payments_Bank_VisibilityTest -->
+                  <span class="method-name">verifyBuy_Airtel_Payments_Bank_VisibilityTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyBuy_Broadband_VisibilityTest">
+                  </a> <!-- verifyBuy_Broadband_VisibilityTest -->
+                  <span class="method-name">verifyBuy_Broadband_VisibilityTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyBuy_DTH_VisibilityTest">
+                  </a> <!-- verifyBuy_DTH_VisibilityTest -->
+                  <span class="method-name">verifyBuy_DTH_VisibilityTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyBuy_One_Airtel_Plan_VisibilityTest">
+                  </a> <!-- verifyBuy_One_Airtel_Plan_VisibilityTest -->
+                  <span class="method-name">verifyBuy_One_Airtel_Plan_VisibilityTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyBuy_Postpaid_VisibilityTest">
+                  </a> <!-- verifyBuy_Postpaid_VisibilityTest -->
+                  <span class="method-name">verifyBuy_Postpaid_VisibilityTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyBuy_Prepaid_VisibilityTest">
+                  </a> <!-- verifyBuy_Prepaid_VisibilityTest -->
+                  <span class="method-name">verifyBuy_Prepaid_VisibilityTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyBuy_Prepaid_to_Postpaid_VisibilityTest">
+                  </a> <!-- verifyBuy_Prepaid_to_Postpaid_VisibilityTest -->
+                  <span class="method-name">verifyBuy_Prepaid_to_Postpaid_VisibilityTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyBuy_Xstream_VisibilityTest">
+                  </a> <!-- verifyBuy_Xstream_VisibilityTest -->
+                  <span class="method-name">verifyBuy_Xstream_VisibilityTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCareerVisibilityTest">
+                  </a> <!-- verifyCareerVisibilityTest -->
+                  <span class="method-name">verifyCareerVisibilityTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyDTHVisibilityTest">
+                  </a> <!-- verifyDTHVisibilityTest -->
+                  <span class="method-name">verifyDTHVisibilityTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyDTHtextvisibility">
+                  </a> <!-- verifyDTHtextvisibility -->
+                  <span class="method-name">verifyDTHtextvisibility</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyGetAppVisibilityTest">
+                  </a> <!-- verifyGetAppVisibilityTest -->
+                  <span class="method-name">verifyGetAppVisibilityTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyHelpVisibilityTest">
+                  </a> <!-- verifyHelpVisibilityTest -->
+                  <span class="method-name">verifyHelpVisibilityTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyHomePageVisibilityTest">
+                  </a> <!-- verifyHomePageVisibilityTest -->
+                  <span class="method-name">verifyHomePageVisibilityTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyInvestorVisibilityTest">
+                  </a> <!-- verifyInvestorVisibilityTest -->
+                  <span class="method-name">verifyInvestorVisibilityTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginVisibilityTest">
+                  </a> <!-- verifyLoginVisibilityTest -->
+                  <span class="method-name">verifyLoginVisibilityTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLogoVisibilityTest">
+                  </a> <!-- verifyLogoVisibilityTest -->
+                  <span class="method-name">verifyLogoVisibilityTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPersonalVisibilityTest">
+                  </a> <!-- verifyPersonalVisibilityTest -->
+                  <span class="method-name">verifyPersonalVisibilityTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPostpaidVisibilityTest">
+                  </a> <!-- verifyPostpaidVisibilityTest -->
+                  <span class="method-name">verifyPostpaidVisibilityTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPostpaidtextvisibility">
+                  </a> <!-- verifyPostpaidtextvisibility -->
+                  <span class="method-name">verifyPostpaidtextvisibility</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPrepaidVisibilityTest">
+                  </a> <!-- verifyPrepaidVisibilityTest -->
+                  <span class="method-name">verifyPrepaidVisibilityTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPrepaidtextvisibility">
+                  </a> <!-- verifyPrepaidtextvisibility -->
+                  <span class="method-name">verifyPrepaidtextvisibility</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTextBoxVisibilityText">
+                  </a> <!-- verifyTextBoxVisibilityText -->
+                  <span class="method-name">verifyTextBoxVisibilityText</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTitleTest">
+                  </a> <!-- verifyTitleTest -->
+                  <span class="method-name">verifyTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyWynkVisibilityTest">
+                  </a> <!-- verifyWynkVisibilityTest -->
+                  <span class="method-name">verifyWynkVisibilityTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyXstreamVisibilityTest">
+                  </a> <!-- verifyXstreamVisibilityTest -->
+                  <span class="method-name">verifyXstreamVisibilityTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_Business_Postpaid_VisibilityTest">
+                  </a> <!-- verify_Business_Postpaid_VisibilityTest -->
+                  <span class="method-name">verify_Business_Postpaid_VisibilityTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_International_RoamingVisibilityTest">
+                  </a> <!-- verify_International_RoamingVisibilityTest -->
+                  <span class="method-name">verify_International_RoamingVisibilityTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_Port_to_Airtel_VisibilityTest">
+                  </a> <!-- verify_Port_to_Airtel_VisibilityTest -->
+                  <span class="method-name">verify_Port_to_Airtel_VisibilityTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_WiFi_Calling_VisibilityTest">
+                  </a> <!-- verify_WiFi_Calling_VisibilityTest -->
+                  <span class="method-name">verify_WiFi_Calling_VisibilityTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifytext1RechargeTabVisibilityTest">
+                  </a> <!-- verifytext1RechargeTabVisibilityTest -->
+                  <span class="method-name">verifytext1RechargeTabVisibilityTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifytext2RechargeTabVisibilityTest">
+                  </a> <!-- verifytext2RechargeTabVisibilityTest -->
+                  <span class="method-name">verifytext2RechargeTabVisibilityTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-skipped -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestNGTestCaseAirtel.Airtel</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAirtelStoreVisibilityTest">
+                  </a> <!-- verifyAirtelStoreVisibilityTest -->
+                  <span class="method-name">verifyAirtelStoreVisibilityTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAirtel_Payments_Bank_VisibilityTest">
+                  </a> <!-- verifyAirtel_Payments_Bank_VisibilityTest -->
+                  <span class="method-name">verifyAirtel_Payments_Bank_VisibilityTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyBankVisibilityTest">
+                  </a> <!-- verifyBankVisibilityTest -->
+                  <span class="method-name">verifyBankVisibilityTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyBroadbandVisibilityTest">
+                  </a> <!-- verifyBroadbandVisibilityTest -->
+                  <span class="method-name">verifyBroadbandVisibilityTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Dell\AppData\Local\Temp\testng-eclipse--390033918\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot; parallel=&quot;none&quot;&gt;
+  &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestNGTestCaseAirtel.Airtel&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(38);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifyAirtel_Payments_Bank_VisibilityTest')
+data.setCell(0, 2, 'TestNGTestCaseAirtel.Airtel')
+data.setCell(0, 3, 17330);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyAirtelStoreVisibilityTest')
+data.setCell(1, 2, 'TestNGTestCaseAirtel.Airtel')
+data.setCell(1, 3, 4832);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyBankVisibilityTest')
+data.setCell(2, 2, 'TestNGTestCaseAirtel.Airtel')
+data.setCell(2, 3, 75);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyBroadbandVisibilityTest')
+data.setCell(3, 2, 'TestNGTestCaseAirtel.Airtel')
+data.setCell(3, 3, 46);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyBuy_Prepaid_VisibilityTest')
+data.setCell(4, 2, 'TestNGTestCaseAirtel.Airtel')
+data.setCell(4, 3, 7);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verify_Business_Postpaid_VisibilityTest')
+data.setCell(5, 2, 'TestNGTestCaseAirtel.Airtel')
+data.setCell(5, 3, 2);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyBuy_Airtel_Payments_Bank_VisibilityTest')
+data.setCell(6, 2, 'TestNGTestCaseAirtel.Airtel')
+data.setCell(6, 3, 2);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifytext2RechargeTabVisibilityTest')
+data.setCell(7, 2, 'TestNGTestCaseAirtel.Airtel')
+data.setCell(7, 3, 2);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyBusinessVisibilityTest')
+data.setCell(8, 2, 'TestNGTestCaseAirtel.Airtel')
+data.setCell(8, 3, 2);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verify_WiFi_Calling_VisibilityTest')
+data.setCell(9, 2, 'TestNGTestCaseAirtel.Airtel')
+data.setCell(9, 3, 1);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifyBroadbandtextvisibility')
+data.setCell(10, 2, 'TestNGTestCaseAirtel.Airtel')
+data.setCell(10, 3, 1);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verifyInvestorVisibilityTest')
+data.setCell(11, 2, 'TestNGTestCaseAirtel.Airtel')
+data.setCell(11, 3, 1);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'verifyBuy_One_Airtel_Plan_VisibilityTest')
+data.setCell(12, 2, 'TestNGTestCaseAirtel.Airtel')
+data.setCell(12, 3, 1);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'verifyBuy_Prepaid_to_Postpaid_VisibilityTest')
+data.setCell(13, 2, 'TestNGTestCaseAirtel.Airtel')
+data.setCell(13, 3, 1);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'verifyBuy_Xstream_VisibilityTest')
+data.setCell(14, 2, 'TestNGTestCaseAirtel.Airtel')
+data.setCell(14, 3, 1);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'verifyDTHtextvisibility')
+data.setCell(15, 2, 'TestNGTestCaseAirtel.Airtel')
+data.setCell(15, 3, 1);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'verifyBuy_Broadband_VisibilityTest')
+data.setCell(16, 2, 'TestNGTestCaseAirtel.Airtel')
+data.setCell(16, 3, 1);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'verifyPrepaidtextvisibility')
+data.setCell(17, 2, 'TestNGTestCaseAirtel.Airtel')
+data.setCell(17, 3, 1);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'verifyHomePageVisibilityTest')
+data.setCell(18, 2, 'TestNGTestCaseAirtel.Airtel')
+data.setCell(18, 3, 1);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'verifyLoginVisibilityTest')
+data.setCell(19, 2, 'TestNGTestCaseAirtel.Airtel')
+data.setCell(19, 3, 1);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'verifyPostpaidVisibilityTest')
+data.setCell(20, 2, 'TestNGTestCaseAirtel.Airtel')
+data.setCell(20, 3, 1);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'verifyPersonalVisibilityTest')
+data.setCell(21, 2, 'TestNGTestCaseAirtel.Airtel')
+data.setCell(21, 3, 1);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'verifyXstreamVisibilityTest')
+data.setCell(22, 2, 'TestNGTestCaseAirtel.Airtel')
+data.setCell(22, 3, 1);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'verifyTitleTest')
+data.setCell(23, 2, 'TestNGTestCaseAirtel.Airtel')
+data.setCell(23, 3, 1);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'verifyCareerVisibilityTest')
+data.setCell(24, 2, 'TestNGTestCaseAirtel.Airtel')
+data.setCell(24, 3, 1);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'verify_International_RoamingVisibilityTest')
+data.setCell(25, 2, 'TestNGTestCaseAirtel.Airtel')
+data.setCell(25, 3, 1);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'verifyWynkVisibilityTest')
+data.setCell(26, 2, 'TestNGTestCaseAirtel.Airtel')
+data.setCell(26, 3, 1);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'verifytext1RechargeTabVisibilityTest')
+data.setCell(27, 2, 'TestNGTestCaseAirtel.Airtel')
+data.setCell(27, 3, 1);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'verifyLogoVisibilityTest')
+data.setCell(28, 2, 'TestNGTestCaseAirtel.Airtel')
+data.setCell(28, 3, 1);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'verifyTextBoxVisibilityText')
+data.setCell(29, 2, 'TestNGTestCaseAirtel.Airtel')
+data.setCell(29, 3, 1);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'verifyPostpaidtextvisibility')
+data.setCell(30, 2, 'TestNGTestCaseAirtel.Airtel')
+data.setCell(30, 3, 0);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'verify_Port_to_Airtel_VisibilityTest')
+data.setCell(31, 2, 'TestNGTestCaseAirtel.Airtel')
+data.setCell(31, 3, 0);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'verifyGetAppVisibilityTest')
+data.setCell(32, 2, 'TestNGTestCaseAirtel.Airtel')
+data.setCell(32, 3, 0);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'verifyDTHVisibilityTest')
+data.setCell(33, 2, 'TestNGTestCaseAirtel.Airtel')
+data.setCell(33, 3, 0);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'verifyBuy_DTH_VisibilityTest')
+data.setCell(34, 2, 'TestNGTestCaseAirtel.Airtel')
+data.setCell(34, 3, 0);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'verifyHelpVisibilityTest')
+data.setCell(35, 2, 'TestNGTestCaseAirtel.Airtel')
+data.setCell(35, 3, 0);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'verifyPrepaidVisibilityTest')
+data.setCell(36, 2, 'TestNGTestCaseAirtel.Airtel')
+data.setCell(36, 3, 0);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'verifyBuy_Postpaid_VisibilityTest')
+data.setCell(37, 2, 'TestNGTestCaseAirtel.Airtel')
+data.setCell(37, 3, 0);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 22 seconds</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestNGTestCaseAirtel.Airtel</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyAirtelStoreVisibilityTest</span>
+                <span class="method-start">23454 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">28287 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">32612 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyAirtel_Payments_Bank_VisibilityTest</span>
+                <span class="method-start">52638 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">69969 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">74081 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyBankVisibilityTest</span>
+                <span class="method-start">94813 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">94890 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">99000 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyBroadbandVisibilityTest</span>
+                <span class="method-start">119617 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">119664 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setUp</span>
+                <span class="method-start">123720 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyBroadbandtextvisibility</span>
+                <span class="method-start">131309 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyBusinessVisibilityTest</span>
+                <span class="method-start">131312 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyBuy_Airtel_Payments_Bank_VisibilityTest</span>
+                <span class="method-start">131322 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyBuy_Broadband_VisibilityTest</span>
+                <span class="method-start">131326 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyBuy_DTH_VisibilityTest</span>
+                <span class="method-start">131329 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyBuy_One_Airtel_Plan_VisibilityTest</span>
+                <span class="method-start">131331 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyBuy_Postpaid_VisibilityTest</span>
+                <span class="method-start">131335 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyBuy_Prepaid_VisibilityTest</span>
+                <span class="method-start">131341 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyBuy_Prepaid_to_Postpaid_VisibilityTest</span>
+                <span class="method-start">131351 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyBuy_Xstream_VisibilityTest</span>
+                <span class="method-start">131358 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyCareerVisibilityTest</span>
+                <span class="method-start">131361 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyDTHVisibilityTest</span>
+                <span class="method-start">131365 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyDTHtextvisibility</span>
+                <span class="method-start">131369 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyGetAppVisibilityTest</span>
+                <span class="method-start">131371 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyHelpVisibilityTest</span>
+                <span class="method-start">131373 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyHomePageVisibilityTest</span>
+                <span class="method-start">131375 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyInvestorVisibilityTest</span>
+                <span class="method-start">131377 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginVisibilityTest</span>
+                <span class="method-start">131381 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyLogoVisibilityTest</span>
+                <span class="method-start">131384 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyPersonalVisibilityTest</span>
+                <span class="method-start">131386 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyPostpaidVisibilityTest</span>
+                <span class="method-start">131388 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyPostpaidtextvisibility</span>
+                <span class="method-start">131390 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyPrepaidVisibilityTest</span>
+                <span class="method-start">131392 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyPrepaidtextvisibility</span>
+                <span class="method-start">131398 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyTextBoxVisibilityText</span>
+                <span class="method-start">131401 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyTitleTest</span>
+                <span class="method-start">131405 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyWynkVisibilityTest</span>
+                <span class="method-start">131408 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyXstreamVisibilityTest</span>
+                <span class="method-start">131411 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_Business_Postpaid_VisibilityTest</span>
+                <span class="method-start">131417 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_International_RoamingVisibilityTest</span>
+                <span class="method-start">131426 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_Port_to_Airtel_VisibilityTest</span>
+                <span class="method-start">131431 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_WiFi_Calling_VisibilityTest</span>
+                <span class="method-start">131434 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifytext1RechargeTabVisibilityTest</span>
+                <span class="method-start">131438 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifytext2RechargeTabVisibilityTest</span>
+                <span class="method-start">131442 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

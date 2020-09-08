@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="34" failed="0" total="38" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="131462" started-at="2020-09-04T06:58:14Z" finished-at="2020-09-04T07:00:25Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="131462" started-at="2020-09-04T06:58:14Z" finished-at="2020-09-04T07:00:25Z">
+      <class name="TestNGTestCaseAirtel.Airtel">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="setUp" is-config="true" duration-ms="23454" started-at="2020-09-04T12:28:14Z" finished-at="2020-09-04T12:28:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyAirtelStoreVisibilityTest()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="verifyAirtelStoreVisibilityTest" duration-ms="4832" started-at="2020-09-04T12:28:37Z" finished-at="2020-09-04T12:28:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAirtelStoreVisibilityTest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="closeBrowser" is-config="true" duration-ms="4324" started-at="2020-09-04T12:28:42Z" finished-at="2020-09-04T12:28:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="setUp" is-config="true" duration-ms="20026" started-at="2020-09-04T12:28:46Z" finished-at="2020-09-04T12:29:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyAirtel_Payments_Bank_VisibilityTest()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="verifyAirtel_Payments_Bank_VisibilityTest" duration-ms="17330" started-at="2020-09-04T12:29:06Z" finished-at="2020-09-04T12:29:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAirtel_Payments_Bank_VisibilityTest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="closeBrowser" is-config="true" duration-ms="4112" started-at="2020-09-04T12:29:24Z" finished-at="2020-09-04T12:29:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="setUp" is-config="true" duration-ms="20732" started-at="2020-09-04T12:29:28Z" finished-at="2020-09-04T12:29:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyBankVisibilityTest()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="verifyBankVisibilityTest" duration-ms="75" started-at="2020-09-04T12:29:49Z" finished-at="2020-09-04T12:29:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBankVisibilityTest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="closeBrowser" is-config="true" duration-ms="4110" started-at="2020-09-04T12:29:49Z" finished-at="2020-09-04T12:29:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="setUp" is-config="true" duration-ms="20617" started-at="2020-09-04T12:29:53Z" finished-at="2020-09-04T12:30:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyBroadbandVisibilityTest()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="verifyBroadbandVisibilityTest" duration-ms="46" started-at="2020-09-04T12:30:13Z" finished-at="2020-09-04T12:30:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBroadbandVisibilityTest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="closeBrowser" is-config="true" duration-ms="4055" started-at="2020-09-04T12:30:13Z" finished-at="2020-09-04T12:30:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="FAIL" signature="setUp()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="setUp" is-config="true" duration-ms="0" started-at="2020-09-04T12:30:17Z" finished-at="2020-09-04T12:30:17Z">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=85.0.4183.83)
+  (Driver info: chromedriver=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 9 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'Dell-PC', ip: '192.168.43.234', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:50480}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}), userDataDir=C:\Users\Dell\AppData\Local\Temp\scoped_dir3940_297744513}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=85.0.4183.83, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 488ce152ef85145de4f1fa7d5cb7a8ce]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=85.0.4183.83)
+  (Driver info: chromedriver=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 9 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'Dell-PC', ip: '192.168.43.234', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:50480}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}), userDataDir=C:\Users\Dell\AppData\Local\Temp\scoped_dir3940_297744513}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=85.0.4183.83, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 488ce152ef85145de4f1fa7d5cb7a8ce
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:701)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions.deleteAllCookies(RemoteWebDriver.java:773)
+	at TestNGTestCaseAirtel.Airtel.setUp(Airtel.java:25)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:585)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="verifyBroadbandtextvisibility()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="verifyBroadbandtextvisibility" duration-ms="1" started-at="2020-09-04T12:30:25Z" finished-at="2020-09-04T12:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBroadbandtextvisibility -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2020-09-04T12:30:25Z" finished-at="2020-09-04T12:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="verifyBusinessVisibilityTest()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="verifyBusinessVisibilityTest" duration-ms="2" started-at="2020-09-04T12:30:25Z" finished-at="2020-09-04T12:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBusinessVisibilityTest -->
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="setUp" is-config="true" duration-ms="0" started-at="2020-09-04T12:30:25Z" finished-at="2020-09-04T12:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2020-09-04T12:30:25Z" finished-at="2020-09-04T12:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="setUp" is-config="true" duration-ms="0" started-at="2020-09-04T12:30:25Z" finished-at="2020-09-04T12:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="verifyBuy_Airtel_Payments_Bank_VisibilityTest()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="verifyBuy_Airtel_Payments_Bank_VisibilityTest" duration-ms="2" started-at="2020-09-04T12:30:25Z" finished-at="2020-09-04T12:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBuy_Airtel_Payments_Bank_VisibilityTest -->
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="setUp" is-config="true" duration-ms="0" started-at="2020-09-04T12:30:25Z" finished-at="2020-09-04T12:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2020-09-04T12:30:25Z" finished-at="2020-09-04T12:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="verifyBuy_Broadband_VisibilityTest()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="verifyBuy_Broadband_VisibilityTest" duration-ms="1" started-at="2020-09-04T12:30:25Z" finished-at="2020-09-04T12:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBuy_Broadband_VisibilityTest -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2020-09-04T12:30:25Z" finished-at="2020-09-04T12:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="setUp" is-config="true" duration-ms="0" started-at="2020-09-04T12:30:25Z" finished-at="2020-09-04T12:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="verifyBuy_DTH_VisibilityTest()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="verifyBuy_DTH_VisibilityTest" duration-ms="0" started-at="2020-09-04T12:30:25Z" finished-at="2020-09-04T12:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBuy_DTH_VisibilityTest -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2020-09-04T12:30:25Z" finished-at="2020-09-04T12:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="setUp" is-config="true" duration-ms="0" started-at="2020-09-04T12:30:25Z" finished-at="2020-09-04T12:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="verifyBuy_One_Airtel_Plan_VisibilityTest()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="verifyBuy_One_Airtel_Plan_VisibilityTest" duration-ms="1" started-at="2020-09-04T12:30:25Z" finished-at="2020-09-04T12:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBuy_One_Airtel_Plan_VisibilityTest -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2020-09-04T12:30:25Z" finished-at="2020-09-04T12:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="setUp" is-config="true" duration-ms="0" started-at="2020-09-04T12:30:25Z" finished-at="2020-09-04T12:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="verifyBuy_Postpaid_VisibilityTest()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="verifyBuy_Postpaid_VisibilityTest" duration-ms="0" started-at="2020-09-04T12:30:25Z" finished-at="2020-09-04T12:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBuy_Postpaid_VisibilityTest -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2020-09-04T12:30:25Z" finished-at="2020-09-04T12:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="setUp" is-config="true" duration-ms="0" started-at="2020-09-04T12:30:25Z" finished-at="2020-09-04T12:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="verifyBuy_Prepaid_VisibilityTest()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="verifyBuy_Prepaid_VisibilityTest" duration-ms="7" started-at="2020-09-04T12:30:25Z" finished-at="2020-09-04T12:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBuy_Prepaid_VisibilityTest -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2020-09-04T12:30:25Z" finished-at="2020-09-04T12:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="verifyBuy_Prepaid_to_Postpaid_VisibilityTest()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="verifyBuy_Prepaid_to_Postpaid_VisibilityTest" duration-ms="1" started-at="2020-09-04T12:30:25Z" finished-at="2020-09-04T12:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBuy_Prepaid_to_Postpaid_VisibilityTest -->
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="setUp" is-config="true" duration-ms="0" started-at="2020-09-04T12:30:25Z" finished-at="2020-09-04T12:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2020-09-04T12:30:25Z" finished-at="2020-09-04T12:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="setUp" is-config="true" duration-ms="0" started-at="2020-09-04T12:30:25Z" finished-at="2020-09-04T12:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="verifyBuy_Xstream_VisibilityTest()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="verifyBuy_Xstream_VisibilityTest" duration-ms="1" started-at="2020-09-04T12:30:25Z" finished-at="2020-09-04T12:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBuy_Xstream_VisibilityTest -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2020-09-04T12:30:25Z" finished-at="2020-09-04T12:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="setUp" is-config="true" duration-ms="0" started-at="2020-09-04T12:30:25Z" finished-at="2020-09-04T12:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="verifyCareerVisibilityTest()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="verifyCareerVisibilityTest" duration-ms="1" started-at="2020-09-04T12:30:25Z" finished-at="2020-09-04T12:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCareerVisibilityTest -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2020-09-04T12:30:25Z" finished-at="2020-09-04T12:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="setUp" is-config="true" duration-ms="0" started-at="2020-09-04T12:30:25Z" finished-at="2020-09-04T12:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="verifyDTHVisibilityTest()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="verifyDTHVisibilityTest" duration-ms="0" started-at="2020-09-04T12:30:25Z" finished-at="2020-09-04T12:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDTHVisibilityTest -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2020-09-04T12:30:25Z" finished-at="2020-09-04T12:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="setUp" is-config="true" duration-ms="0" started-at="2020-09-04T12:30:25Z" finished-at="2020-09-04T12:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="verifyDTHtextvisibility()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="verifyDTHtextvisibility" duration-ms="1" started-at="2020-09-04T12:30:25Z" finished-at="2020-09-04T12:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDTHtextvisibility -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2020-09-04T12:30:25Z" finished-at="2020-09-04T12:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="setUp" is-config="true" duration-ms="0" started-at="2020-09-04T12:30:25Z" finished-at="2020-09-04T12:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="verifyGetAppVisibilityTest()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="verifyGetAppVisibilityTest" duration-ms="0" started-at="2020-09-04T12:30:25Z" finished-at="2020-09-04T12:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetAppVisibilityTest -->
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="setUp" is-config="true" duration-ms="0" started-at="2020-09-04T12:30:25Z" finished-at="2020-09-04T12:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2020-09-04T12:30:25Z" finished-at="2020-09-04T12:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2020-09-04T12:30:25Z" finished-at="2020-09-04T12:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="verifyHelpVisibilityTest()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="verifyHelpVisibilityTest" duration-ms="0" started-at="2020-09-04T12:30:25Z" finished-at="2020-09-04T12:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHelpVisibilityTest -->
+        <test-method status="SKIP" signature="verifyHomePageVisibilityTest()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="verifyHomePageVisibilityTest" duration-ms="1" started-at="2020-09-04T12:30:25Z" finished-at="2020-09-04T12:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageVisibilityTest -->
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="setUp" is-config="true" duration-ms="0" started-at="2020-09-04T12:30:25Z" finished-at="2020-09-04T12:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2020-09-04T12:30:25Z" finished-at="2020-09-04T12:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="verifyInvestorVisibilityTest()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="verifyInvestorVisibilityTest" duration-ms="1" started-at="2020-09-04T12:30:25Z" finished-at="2020-09-04T12:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvestorVisibilityTest -->
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="setUp" is-config="true" duration-ms="0" started-at="2020-09-04T12:30:25Z" finished-at="2020-09-04T12:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2020-09-04T12:30:25Z" finished-at="2020-09-04T12:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="setUp" is-config="true" duration-ms="0" started-at="2020-09-04T12:30:25Z" finished-at="2020-09-04T12:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="verifyLoginVisibilityTest()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="verifyLoginVisibilityTest" duration-ms="1" started-at="2020-09-04T12:30:25Z" finished-at="2020-09-04T12:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginVisibilityTest -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2020-09-04T12:30:25Z" finished-at="2020-09-04T12:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="setUp" is-config="true" duration-ms="0" started-at="2020-09-04T12:30:25Z" finished-at="2020-09-04T12:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="verifyLogoVisibilityTest()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="verifyLogoVisibilityTest" duration-ms="1" started-at="2020-09-04T12:30:25Z" finished-at="2020-09-04T12:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogoVisibilityTest -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2020-09-04T12:30:25Z" finished-at="2020-09-04T12:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="verifyPersonalVisibilityTest()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="verifyPersonalVisibilityTest" duration-ms="1" started-at="2020-09-04T12:30:25Z" finished-at="2020-09-04T12:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPersonalVisibilityTest -->
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="setUp" is-config="true" duration-ms="0" started-at="2020-09-04T12:30:25Z" finished-at="2020-09-04T12:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2020-09-04T12:30:25Z" finished-at="2020-09-04T12:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="setUp" is-config="true" duration-ms="0" started-at="2020-09-04T12:30:25Z" finished-at="2020-09-04T12:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="verifyPostpaidVisibilityTest()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="verifyPostpaidVisibilityTest" duration-ms="1" started-at="2020-09-04T12:30:25Z" finished-at="2020-09-04T12:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPostpaidVisibilityTest -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2020-09-04T12:30:25Z" finished-at="2020-09-04T12:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="verifyPostpaidtextvisibility()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="verifyPostpaidtextvisibility" duration-ms="0" started-at="2020-09-04T12:30:25Z" finished-at="2020-09-04T12:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPostpaidtextvisibility -->
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="setUp" is-config="true" duration-ms="0" started-at="2020-09-04T12:30:25Z" finished-at="2020-09-04T12:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2020-09-04T12:30:25Z" finished-at="2020-09-04T12:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="verifyPrepaidVisibilityTest()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="verifyPrepaidVisibilityTest" duration-ms="0" started-at="2020-09-04T12:30:25Z" finished-at="2020-09-04T12:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPrepaidVisibilityTest -->
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="setUp" is-config="true" duration-ms="0" started-at="2020-09-04T12:30:25Z" finished-at="2020-09-04T12:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2020-09-04T12:30:25Z" finished-at="2020-09-04T12:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="setUp" is-config="true" duration-ms="0" started-at="2020-09-04T12:30:25Z" finished-at="2020-09-04T12:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="verifyPrepaidtextvisibility()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="verifyPrepaidtextvisibility" duration-ms="1" started-at="2020-09-04T12:30:25Z" finished-at="2020-09-04T12:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPrepaidtextvisibility -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2020-09-04T12:30:25Z" finished-at="2020-09-04T12:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="setUp" is-config="true" duration-ms="0" started-at="2020-09-04T12:30:25Z" finished-at="2020-09-04T12:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="verifyTextBoxVisibilityText()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="verifyTextBoxVisibilityText" duration-ms="1" started-at="2020-09-04T12:30:25Z" finished-at="2020-09-04T12:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTextBoxVisibilityText -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2020-09-04T12:30:25Z" finished-at="2020-09-04T12:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="setUp" is-config="true" duration-ms="0" started-at="2020-09-04T12:30:25Z" finished-at="2020-09-04T12:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="verifyTitleTest()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="verifyTitleTest" duration-ms="1" started-at="2020-09-04T12:30:25Z" finished-at="2020-09-04T12:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitleTest -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2020-09-04T12:30:25Z" finished-at="2020-09-04T12:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="setUp" is-config="true" duration-ms="0" started-at="2020-09-04T12:30:25Z" finished-at="2020-09-04T12:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="verifyWynkVisibilityTest()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="verifyWynkVisibilityTest" duration-ms="1" started-at="2020-09-04T12:30:25Z" finished-at="2020-09-04T12:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWynkVisibilityTest -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2020-09-04T12:30:25Z" finished-at="2020-09-04T12:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="setUp" is-config="true" duration-ms="0" started-at="2020-09-04T12:30:25Z" finished-at="2020-09-04T12:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="verifyXstreamVisibilityTest()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="verifyXstreamVisibilityTest" duration-ms="1" started-at="2020-09-04T12:30:25Z" finished-at="2020-09-04T12:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyXstreamVisibilityTest -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2020-09-04T12:30:25Z" finished-at="2020-09-04T12:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="setUp" is-config="true" duration-ms="0" started-at="2020-09-04T12:30:25Z" finished-at="2020-09-04T12:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="verify_Business_Postpaid_VisibilityTest()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="verify_Business_Postpaid_VisibilityTest" duration-ms="2" started-at="2020-09-04T12:30:25Z" finished-at="2020-09-04T12:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Business_Postpaid_VisibilityTest -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2020-09-04T12:30:25Z" finished-at="2020-09-04T12:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="setUp" is-config="true" duration-ms="0" started-at="2020-09-04T12:30:25Z" finished-at="2020-09-04T12:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="verify_International_RoamingVisibilityTest()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="verify_International_RoamingVisibilityTest" duration-ms="1" started-at="2020-09-04T12:30:25Z" finished-at="2020-09-04T12:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_International_RoamingVisibilityTest -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2020-09-04T12:30:25Z" finished-at="2020-09-04T12:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="setUp" is-config="true" duration-ms="0" started-at="2020-09-04T12:30:25Z" finished-at="2020-09-04T12:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="verify_Port_to_Airtel_VisibilityTest()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="verify_Port_to_Airtel_VisibilityTest" duration-ms="0" started-at="2020-09-04T12:30:25Z" finished-at="2020-09-04T12:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Port_to_Airtel_VisibilityTest -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2020-09-04T12:30:25Z" finished-at="2020-09-04T12:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="setUp" is-config="true" duration-ms="0" started-at="2020-09-04T12:30:25Z" finished-at="2020-09-04T12:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="verify_WiFi_Calling_VisibilityTest()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="verify_WiFi_Calling_VisibilityTest" duration-ms="1" started-at="2020-09-04T12:30:25Z" finished-at="2020-09-04T12:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_WiFi_Calling_VisibilityTest -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2020-09-04T12:30:25Z" finished-at="2020-09-04T12:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="setUp" is-config="true" duration-ms="0" started-at="2020-09-04T12:30:25Z" finished-at="2020-09-04T12:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="verifytext1RechargeTabVisibilityTest()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="verifytext1RechargeTabVisibilityTest" duration-ms="1" started-at="2020-09-04T12:30:25Z" finished-at="2020-09-04T12:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifytext1RechargeTabVisibilityTest -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2020-09-04T12:30:25Z" finished-at="2020-09-04T12:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="setUp" is-config="true" duration-ms="0" started-at="2020-09-04T12:30:25Z" finished-at="2020-09-04T12:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="verifytext2RechargeTabVisibilityTest()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="verifytext2RechargeTabVisibilityTest" duration-ms="2" started-at="2020-09-04T12:30:25Z" finished-at="2020-09-04T12:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifytext2RechargeTabVisibilityTest -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:TestNGTestCaseAirtel.Airtel@4d826d77]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2020-09-04T12:30:25Z" finished-at="2020-09-04T12:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestNGTestCaseAirtel.Airtel -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

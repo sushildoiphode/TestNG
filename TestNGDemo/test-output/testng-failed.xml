@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]" parallel="none">
+  <test name="Default test(failed)" parallel="none">
+    <classes>
+      <class name="TestNGTestCaseAirtel.Airtel">
+        <methods>
+          <include name="verifyLogoVisibilityTest"/>
+          <include name="verifyHomePageVisibilityTest"/>
+          <include name="verify_Port_to_Airtel_VisibilityTest"/>
+          <include name="verifyBuy_Xstream_VisibilityTest"/>
+          <include name="verifyXstreamVisibilityTest"/>
+          <include name="verifyPersonalVisibilityTest"/>
+          <include name="verifyBuy_Prepaid_VisibilityTest"/>
+          <include name="verifyTextBoxVisibilityText"/>
+          <include name="verifyBuy_Broadband_VisibilityTest"/>
+          <include name="verifyPrepaidtextvisibility"/>
+          <include name="verify_International_RoamingVisibilityTest"/>
+          <include name="verifyBuy_Prepaid_to_Postpaid_VisibilityTest"/>
+          <include name="verifyHelpVisibilityTest"/>
+          <include name="verifyDTHtextvisibility"/>
+          <include name="verifyGetAppVisibilityTest"/>
+          <include name="verifyLoginVisibilityTest"/>
+          <include name="verifyBuy_Airtel_Payments_Bank_VisibilityTest"/>
+          <include name="setUp"/>
+          <include name="verifyBuy_Postpaid_VisibilityTest"/>
+          <include name="verifyPostpaidVisibilityTest"/>
+          <include name="verifyDTHVisibilityTest"/>
+          <include name="verifyPrepaidVisibilityTest"/>
+          <include name="verifyPostpaidtextvisibility"/>
+          <include name="verifytext2RechargeTabVisibilityTest"/>
+          <include name="closeBrowser"/>
+          <include name="verifyCareerVisibilityTest"/>
+          <include name="verifyBuy_DTH_VisibilityTest"/>
+          <include name="verifyInvestorVisibilityTest"/>
+          <include name="verifyTitleTest"/>
+          <include name="verify_Business_Postpaid_VisibilityTest"/>
+          <include name="verifyBuy_One_Airtel_Plan_VisibilityTest"/>
+          <include name="verifytext1RechargeTabVisibilityTest"/>
+          <include name="verifyBusinessVisibilityTest"/>
+          <include name="verify_WiFi_Calling_VisibilityTest"/>
+          <include name="verifyBroadbandtextvisibility"/>
+          <include name="verifyWynkVisibilityTest"/>
+        </methods>
+      </class> <!-- TestNGTestCaseAirtel.Airtel -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
